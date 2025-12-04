@@ -6,7 +6,7 @@ import 'dart:io';
 
 class ApiService {
   // 백엔드 서버 주소
-  static const String baseUrl = 'http://192.168.5.4:8090';
+  static const String baseUrl = 'http://192.168.5.17:8090';
   
   // 싱글톤 인스턴스
   static ApiService? _instance;

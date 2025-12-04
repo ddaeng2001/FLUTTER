@@ -119,7 +119,7 @@ public class SecurityConfig {
 	//-----------------------------------------------------
 	//[추가] CORS
 	//-----------------------------------------------------
-	@Bean
+	@Bean//📍 - 바뀐부분
 	CorsConfigurationSource corsConfigurationSource(){
 		CorsConfiguration config = new CorsConfiguration();
 		config.setAllowedHeaders(Collections.singletonList("*")); //허용헤더
